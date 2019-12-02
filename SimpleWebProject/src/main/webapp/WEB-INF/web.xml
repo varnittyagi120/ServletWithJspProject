@@ -1,0 +1,57 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>ReadDataOfAllClients</servlet-name>
+		<display-name>ReadDataOfAllClients</display-name>
+		<description></description>
+		<servlet-class>service.CMS.ReadDataOfAllClients</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteDataOfEmployee</servlet-name>
+		<display-name>DeleteDataOfEmployee</display-name>
+		<description></description>
+		<servlet-class>service.CMS.DeleteDataOfEmployee</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>DeleteDataOfClient</servlet-name>
+		<display-name>DeleteDataOfClient</display-name>
+		<description></description>
+		<servlet-class>service.CMS.DeleteDataOfClient</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ReadDataOfClient</servlet-name>
+		<display-name>ReadDataOfClient</display-name>
+		<description></description>
+		<servlet-class>service.CMS.ReadDataOfClient</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>validateClientData</servlet-name>
+		<display-name>validateClientData</display-name>
+		<description></description>
+		<servlet-class>service.CMS.validateClientData</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReadDataOfAllClients</servlet-name>
+		<url-pattern>/ReadDataOfAllClients</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteDataOfEmployee</servlet-name>
+		<url-pattern>/DeleteDataOfEmployee</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>DeleteDataOfClient</servlet-name>
+		<url-pattern>/DeleteDataOfClient</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReadDataOfClient</servlet-name>
+		<url-pattern>/ReadDataOfClient</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>validateClientData</servlet-name>
+		<url-pattern>/validateClientData</url-pattern>
+	</servlet-mapping>
+</web-app>

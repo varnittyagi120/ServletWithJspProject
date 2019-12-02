@@ -1,0 +1,8 @@
+util/Utility.class
+service/CMS/DeleteDataOfClient.class
+dto/Client.class
+dao/DatabaseQueries.class
+service/CMS/validateClientData.class
+service/CMS/ReadDataOfAllClients.class
+dto/Person.class
+service/CMS/ReadDataOfClient.class

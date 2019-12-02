@@ -1,0 +1,8 @@
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/service/CMS/DeleteDataOfClient.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/service/CMS/ReadDataOfClient.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/util/Utility.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/dao/DatabaseQueries.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/dto/Person.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/service/CMS/ReadDataOfAllClients.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/dto/Client.java
+/home/infoobjects/eclipse-workspace-practice/SimpleWebProject/src/main/java/service/CMS/validateClientData.java
